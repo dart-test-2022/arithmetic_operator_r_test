@@ -6,10 +6,10 @@ void main() {
 
   group("arithmetic0$tc", () {
     test('arithmetic0$tc', () {
-      expect(f.func(2, 4), 18.0);
+      expect(f.func(2, 4), 192.0);
     });
     test('arithmetic0$tc', () {
-      expect(f.func(2, 6), 66.6);
+      expect(f.func(2, 6), 1536.0);
     });
   });
 }
