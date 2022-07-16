@@ -1,8 +1,8 @@
-import '../bin/arithmetic001.dart' as f;
+import '../bin/arithmetic017.dart' as f;
 import 'package:test/test.dart';
 
 void main() {
-  int tc = 01;
+  int tc = 17;
 
   group("arithmetic0$tc", () {
     test('arithmetic0$tc', () {
