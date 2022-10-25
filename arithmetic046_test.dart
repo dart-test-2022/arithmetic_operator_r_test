@@ -6,7 +6,7 @@ void main() {
 
   group("arithmetic0$tc", () {
     test('arithmetic0$tc', () {
-      expect(f.func(2, 4), 0.66);
+      expect(f.func(2, 4), 0.6666666666666666);
     });
   });
 }
