@@ -9,7 +9,7 @@ void main() {
       expect(f.func(10, 4), 105.8);
     });
     test('arithmetic0$tc', () {
-      expect(f.func(3, 1), 10.6);
+      expect(f.func(3, 1), 10.666666666666666);
     });
   });
 }
